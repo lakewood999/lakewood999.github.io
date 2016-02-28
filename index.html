@@ -24,6 +24,13 @@ function checkTime(i) {
     return i;
 }
 </script>
+<!--HTTPS redirect-->
+<script>
+var host = "lakewood999.github.io";
+if ((host == window.location.host) && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
+</script>
+<!--HTTPS redirect-->
 <!--Time stuff-->
     </head>
     <body onload="startTime()">
