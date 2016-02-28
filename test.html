@@ -7,5 +7,17 @@
     <div class="main">
       <iframe src="/nav.html"></iframe>
     </div>
+    <script>
+    context = document.getElementById('canvasInAPerfectWorld').getContext("2d");
+    $('#canvas').mousedown(function(e){
+  var mouseX = e.pageX - this.offsetLeft;
+  var mouseY = e.pageY - this.offsetTop;
+		
+  paint = true;
+  addClick(e.pageX - this.offsetLeft, e.pageY - this.offsetTop);
+  redraw();
+});
+    </script>
+    <canvas id="canvasInAPerfectWorld" width="600" height="600"></canvas>
   </body>
 </html>
