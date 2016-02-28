@@ -7,29 +7,5 @@
     <div class="main">
       <iframe src="/nav.html"></iframe>
     </div>
-    <script>
-    context = document.getElementById('canvasInAPerfectWorld').getContext("2d");
-
-    function redraw(){
-  context.clearRect(0, 0, context.canvas.width, context.canvas.height); // Clears the canvas
-  
-  context.strokeStyle = "#df4b26";
-  context.lineJoin = "round";
-  context.lineWidth = 5;
-			
-  for(var i=0; i < clickX.length; i++) {		
-    context.beginPath();
-    if(clickDrag[i] && i){
-      context.moveTo(clickX[i-1], clickY[i-1]);
-     }else{
-       context.moveTo(clickX[i]-1, clickY[i]);
-     }
-     context.lineTo(clickX[i], clickY[i]);
-     context.closePath();
-     context.stroke();
-  }
-}
-    </script>
-    <canvas id="canvasInAPerfectWorld" width="600" height="600"></canvas>
   </body>
 </html>
