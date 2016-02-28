@@ -1,8 +1,112 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-  <body>
-    <h1>Test</h1>
-    <p>It works!</p>
-    <iframe src="test.html"></iframe>
-  </body>
+    <head>
+    <!--Below is the CSS of this page-->
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <!--This is the end of the CSS of this page-->
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Servesium</title>
+        <!--Time stuff-->
+        <script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('time').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+<!--Time stuff-->
+    </head>
+    <body onload="startTime()">
+      <!--Main div-->
+      <div class="main">
+      <!--Main div-->
+        <br>
+        <hr>
+        <h1 align="center">Servesium</h1>
+        <hr>
+        <iframe src="/nav.html" scrolling="no"></iframe>
+        
+        <!--NOSCRIPT
+      <noscript>
+        <div>
+          <h2>Error...</h2>
+          <p>Sorry, but you need Javascript turned on to access this website. :(</p>
+        </div>
+      </noscript>
+      NOSCRIPT-->
+        <noscript>
+          You need Javascript enabled to use this site!
+        </noscript>
+        <script>
+          var warned = document.cookie;
+          if (warned==false) {
+            alert("Hi, if you are viewing this website on a mobile device, e.g. tablet, phone, then please orient your device to use landscape mode.  Thank you.  Note: If you do not orient you device to landscape, the page may be distorted.");
+            document.cookie="warned=true;";
+          }
+        </script>
+        <div>
+            <p><b>Welcome to Servesium!</b></p>
+            <p>Servesium is still in development, though it's key features are done.  Check back for new pages and content.  A form will be setup to handle questions, comments, and requests.  Have fun!!</p>
+        </div>
+        <br>
+        <div>
+          <b><p>Current Time: </p><p id="time"></p></b>
+        </div>
+        <br>
+        <!--
+        <div style="background-color: red;">
+            <p><b><u>Warning: This section is deprecated, and WILL be removed.  All information shown here will be shown in the blog section!</u></b></p>
+            <p><b>Changelog/Notes</b></p>
+            <p>Here is some information on site updates, and additional content updates:</p>
+              <table align="center">
+                <tr>
+                  <th>Item Number</th>
+                  <th>Item</th>
+                  <th>Status</th>
+                  <th>Finish Date</th>
+                </tr>
+                <tr>
+                  <td>1<td>
+                  <td>Add a music page</td>
+                  <td>HTML page done, needs content</td>
+                  <td>2-29-2016</td>
+                </tr>
+                <tr>
+                  <td>2<td>
+                  <td>Add calendar.time.daily items</td>
+                  <td>Planned, may not be used</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>3<td>
+                  <td>Add a download page</td>
+                  <td>Finished, need updated content</td>
+                  <td>Done</td>
+                </tr>
+              </table>
+              <br>
+              <br>
+        </div>
+        -->
+        <!--WIP
+        <footer style="bottom: 0vh;" align="center">
+          <hr>
+          <p>Servesium is a registered trademark of Random Corporations</p>
+          <p>Servesium is a name for Random Corporations Home Servers Only</p>
+        </footer>
+        -->
+      <!--Main div-->
+      </div>
+      <!--Main div-->
+    </body>
 </html>
