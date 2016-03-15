@@ -30,6 +30,13 @@
         </div>
       </noscript>
       NOSCRIPT-->
+      <script>
+          var warned = document.cookie;
+          if (warned==false) {
+            alert("Hi, if you are viewing this website on a mobile device, e.g. tablet, phone, then please orient your device to use landscape mode.  Thank you.  Note: If you do not orient you device to landscape, the page may be distorted.");
+            document.cookie="warned=true;";
+          }
+        </script>
       <div>
         <h2>Welcome to PRPP!</h2>
         <p><b>What is PRPP? </b>PRPP stand for ProgramRandom Practice Problems.  These problems are designed to give you practice your programming skills at varying degress.  Question may be taken or modified from ACSL problems.  <a href="http://acsl.org/" target="_blank">Visit the ACSL site here(ACSL is not affiliated or related to ProgramRandom)</a>  All problems taken from the ACSL site will have a disclaimer.</p>
