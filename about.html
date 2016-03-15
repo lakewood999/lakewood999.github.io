@@ -35,7 +35,13 @@
         </div>
       </noscript>
       NOSCRIPT-->
-      
+      <script>
+          var warned = document.cookie;
+          if (warned==false) {
+            alert("Hi, if you are viewing this website on a mobile device, e.g. tablet, phone, then please orient your device to use landscape mode.  Thank you.  Note: If you do not orient you device to landscape, the page may be distorted.");
+            document.cookie="warned=true;";
+          }
+        </script>
         <!--WIP
         <footer style="bottom: 0vh;" align="center">
           <hr>
