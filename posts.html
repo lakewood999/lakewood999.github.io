@@ -29,6 +29,13 @@
         <title>Servesium</title>
     </head>
     <body style="background-color: white;">
+    <script>
+          var warned = document.cookie;
+          if (warned==false) {
+            alert("Hi, if you are viewing this website on a mobile device, e.g. tablet, phone, then please orient your device to use landscape mode.  Thank you.  Note: If you do not orient you device to landscape, the page may be distorted.");
+            document.cookie="warned=true;";
+          }
+        </script>
       <div>
         <p><b>Hi guys, welcome to the blog!  Check out the posts everyday!  There may be multiple posts each day.  Make sure to check them out!</b></p>
       </div>
