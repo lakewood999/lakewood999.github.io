@@ -44,7 +44,7 @@ iframe{
   border: none;
   overflow-y: auto;
   overflow-x: hidden;
-  position: fixed;
+  position: absolute;
 }
 
 table, th, td{
