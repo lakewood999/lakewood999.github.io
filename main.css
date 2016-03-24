@@ -28,7 +28,8 @@ div{
 }
 
 div.main{
-  background-color: white;
+  /*background-color: white;*/
+  background-image: url("background1.jpg");
   border: none;
   border-radius: 1vw;
   width: 90vw;
