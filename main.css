@@ -1,5 +1,7 @@
 body{
   background-color: black;
+  background-image: url("background1.jpg");
+  background-size: cover;
 }
 
 p{
@@ -28,8 +30,7 @@ div{
 }
 
 div.main{
-  /*background-color: white;*/
-  background-image: url("background1.jpg");
+  background-color: white;
   border: none;
   border-radius: 1vw;
   width: 90vw;
