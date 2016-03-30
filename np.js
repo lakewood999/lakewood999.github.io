@@ -1,3 +1,5 @@
 function placeholder() {
-  alert("Working")
+  //alert("Working");
+  var doc = document.getElementById("np")
+  doc.innerHTML = "Test";
 }
