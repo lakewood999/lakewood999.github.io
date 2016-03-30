@@ -14,7 +14,10 @@
   color: white;
 }
 */
-        ul {
+.np:hover {
+    background-color: green;
+}
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -57,6 +60,10 @@ li a:hover, .dropdown:hover .dropdownbutton {
 .dropdown:hover .dropcontent {
     display: block;
 }
+
+.np:hover {
+    background-color: green;
+}
       </style>  
     <!--Below is the CSS of this page-->
     <link rel="stylesheet" type="text/css" href="main.css">
@@ -87,8 +94,8 @@ li a:hover, .dropdown:hover .dropdownbutton {
           <br>
           <!--Link Template-->
           <!--<li><a target="player" href="?playlist=[name]&loop=1&autoplay=1">NAME</a></li>-->
-          <ul style="background-color: green; color: white;">
-            <li style="color: white;"><a style="color: white;" href="#">Now Playing: </a><a style="color: white;" href="#" id="np">N/A</a></li>
+          <ul  style="background-color: green; color: white;">
+            <li style="color: white;"><a class="np" style="color: white;" href="#">Now Playing: </a><a class="np" style="color: white;" href="#" id="np">N/A</a></li>
           </ul>
           <hr>
           <ul>
