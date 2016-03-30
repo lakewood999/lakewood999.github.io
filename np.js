@@ -36,7 +36,7 @@ function Poteo() {
 
 function Potee() {
   var doc = document.getElementById("np")
-  doc.innerHTML = "Protecotrs of the Earth(Extended)";
+  doc.innerHTML = "Protectors of the Earth(Extended)";
 }
 
 function Fotso() {
