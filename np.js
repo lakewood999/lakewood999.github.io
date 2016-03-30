@@ -21,7 +21,7 @@ function stop() {
 
 function RRRYB() {
   var doc = document.getElementById("np")
-  doc.innerHTML = "Row Row Row You Boat(Complicated)";
+  doc.innerHTML = "Row, Row, Row You Boat(Complicated)";
 }
 
 function DYKTMM() {
