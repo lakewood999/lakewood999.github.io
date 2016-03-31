@@ -9,12 +9,6 @@ function name() {
 */
 
 //General Function -- WIP
-function np(x) {
-  var text
-  text = x
-  var doc = document.getElementById("np")
-  doc.innerHTML = text;
-}
 
 function placeholder() {
   //alert("Working");
