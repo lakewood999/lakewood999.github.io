@@ -10,10 +10,16 @@ function name() {
 
 //General Function -- WIP
 
-function placeholder() {
+function t1() {
   //alert("Working");
   var doc = document.getElementById("np")
   doc.innerHTML = "Test";
+}
+
+function t2() {
+  //alert("Working");
+  var doc = document.getElementById("np")
+  doc.innerHTML = "Test2";
 }
 
 function stop() {
