@@ -8,6 +8,12 @@ function name() {
 
 */
 
+//General Function -- WIP
+function np(text) {
+  var doc = document.getElementById("np")
+  doc.innerHTML = text;
+}
+
 function placeholder() {
   //alert("Working");
   var doc = document.getElementById("np")
