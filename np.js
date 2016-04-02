@@ -12,13 +12,8 @@ function name() {
 
 
 function np(name) {
-  //The alert is only for testing
-  alert(name);
-  
   var dis = document.getElementById("np");
-  var info = document.getElementById(name).innerHTML;
-  
-  //Test alert
+  var info = document.getElementById(name);
   
   alert(info);
   
