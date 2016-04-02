@@ -13,9 +13,9 @@ function name() {
 
 function np(name) {
   var dis = document.getElementById("np");
-  //Old--> var info = document.getElementById(name);
-  dis.innerHTML = name;
-  //Old--> alert(info);
+  var info = document.getElementById(name).id;
+  dis.innerHTML = info;
+  alert(info);
   
   //Old--> dis.innerHTML = info;
   
