@@ -13,11 +13,11 @@ function name() {
 
 function np(name) {
   var dis = document.getElementById("np");
-  var info = document.getElementById(name);
+  //Old--> var info = document.getElementById(name);
+  dis.innerHTML = name;
+  //Old--> alert(info);
   
-  alert(info);
-  
-  dis.innerHTML = info;
+  //Old--> dis.innerHTML = info;
   
 }
 
