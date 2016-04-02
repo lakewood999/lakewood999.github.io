@@ -10,6 +10,26 @@ function name() {
 
 //General Function -- WIP
 
+
+function np(name) {
+  //The alert is only for testing
+  alert(name);
+  
+  var dis = document.getElementById("np");
+  var info = document.getElementById(name).innerHTML;
+  
+  //Test alert
+  
+  alert(info)
+  
+  dis.innerHTML = info;
+  
+}
+
+
+//End of general function
+
+//Below is the old system...it may not be changed
 function t1() {
   //alert("Working");
   var doc = document.getElementById("np")
