@@ -11,8 +11,8 @@ function name() {
 //General Function -- WIP
 
 
-function np(name) {
-  name = String(name);
+function main(x) {
+  name = String(x);
   var dis = document.getElementById("np");
   dis.innerHTML = name;
   /*
