@@ -12,7 +12,7 @@ function name() {
 
 
 function np(name) {
-  name = string(name);
+  name = String(name);
   var dis = document.getElementById("np");
   var info = document.getElementById(name).id;
   dis.innerHTML = info;
