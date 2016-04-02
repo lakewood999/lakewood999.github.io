@@ -20,7 +20,7 @@ function np(name) {
   
   //Test alert
   
-  alert(info)
+  alert(info);
   
   dis.innerHTML = info;
   
