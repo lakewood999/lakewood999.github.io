@@ -8,6 +8,8 @@ function name() {
 
 */
 
+
+/*
 //General Function -- WIP
 
 
@@ -15,19 +17,18 @@ function main(x) {
   name = String(x);
   var dis = document.getElementById("np");
   dis.innerHTML = name;
-  /*
-  var info = document.getElementById(name).id;
-  dis.innerHTML = info;
-  alert(info);
-  */
+  
+  //var info = document.getElementById(name).id;
+  //dis.innerHTML = info;
+  //alert(info);
+  
   //Old--> dis.innerHTML = info;
   
 }
-
+*/
 
 //End of general function
 
-//Below is the old system...it may not be changed
 function t1() {
   //alert("Working");
   var doc = document.getElementById("np")
