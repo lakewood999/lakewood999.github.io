@@ -12,6 +12,11 @@ function name() {
 
 //General Functions
 
+//main() is the chosen function
+//main2() works, but may not be used
+//main is more convenient
+//main2 is deprecated
+
 //General 1 -- > Working and in use
 
 function main(x) {
