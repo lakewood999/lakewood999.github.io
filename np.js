@@ -10,8 +10,9 @@ function name() {
 
 
 
-//General Function -- WIP
+//General Functions
 
+//General 1 -- > Working and in use
 
 function main(x) {
   var dis = document.getElementById("np");
@@ -25,8 +26,13 @@ function main(x) {
   
 }
 
+function main2(x) {
+  var dis = document.getElementById("np");
+  var name = document.getElementById(x).text;
+  dis.innerHTML = name;
+}
 
-//End of general function
+//End of general functions
 
 function t1() {
   //alert("Working");
