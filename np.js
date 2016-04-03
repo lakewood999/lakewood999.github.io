@@ -86,6 +86,16 @@ function FotsP() {
   doc.innerHTML = "Flight of the Silverbird Piano";
 }
 
+function PotcP() {
+  var doc = document.getElementById("np")
+  doc.innerHTML = "Pirates of the Caribbean Piano";
+}
+
+function PotchapO() {
+  var doc = document.getElementById("np")
+  doc.innerHTML = "Pirates Of The Caribbean(Original: He's a Pirate)";
+}
+
 
 
 
