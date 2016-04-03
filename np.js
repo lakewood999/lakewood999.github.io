@@ -9,14 +9,13 @@ function name() {
 */
 
 
-/*
+
 //General Function -- WIP
 
 
 function main(x) {
-  name = String(x);
   var dis = document.getElementById("np");
-  dis.innerHTML = name;
+  dis.innerHTML = x;
   
   //var info = document.getElementById(name).id;
   //dis.innerHTML = info;
@@ -25,7 +24,7 @@ function main(x) {
   //Old--> dis.innerHTML = info;
   
 }
-*/
+
 
 //End of general function
 
