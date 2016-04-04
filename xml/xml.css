@@ -1,1 +1,7 @@
 /*This is some CSS for my XML files, just for testing*/
+main {
+  background-image: url="../bacgkround2.jpg";
+}
+title {
+  color: white;
+}
